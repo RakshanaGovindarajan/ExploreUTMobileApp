@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FEAF928932E0F7AA125B32B /* Pods_OrganizationHomeProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B3FFBC17B0319BA6B4465 /* Pods_OrganizationHomeProject.framework */; };
+		290ABB7E1E95B93A00C465B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 290ABB7D1E95B93A00C465B1 /* GoogleService-Info.plist */; };
+		290ABB801E95B97500C465B1 /* EventPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290ABB7F1E95B97500C465B1 /* EventPost.swift */; };
+		296A0B281E7F06FB0091835D /* CalendarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A0B261E7F06FB0091835D /* CalendarTableViewController.swift */; };
+		296A0B291E7F06FB0091835D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A0B271E7F06FB0091835D /* MapViewController.swift */; };
+		296A0B2B1E7F1B870091835D /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A0B2A1E7F1B870091835D /* CalendarTableViewCell.swift */; };
+		296A0B361E7F655A0091835D /* AccountTypeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A0B2F1E7F655A0091835D /* AccountTypeSelectionViewController.swift */; };
+		296A0B371E7F655A0091835D /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A0B301E7F655A0091835D /* LoginPageViewController.swift */; };
+		296A0B381E7F655A0091835D /* ProfileEditPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A0B311E7F655A0091835D /* ProfileEditPage1ViewController.swift */; };
+		296A0B391E7F655A0091835D /* ProfileEditPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A0B321E7F655A0091835D /* ProfileEditPage2ViewController.swift */; };
+		296A0B3A1E7F655A0091835D /* StudentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A0B331E7F655A0091835D /* StudentProfileViewController.swift */; };
+		296A0B3B1E7F655A0091835D /* StudentRegistrationPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A0B341E7F655A0091835D /* StudentRegistrationPage1ViewController.swift */; };
+		296A0B3C1E7F655A0091835D /* StudentRegistrationPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A0B351E7F655A0091835D /* StudentRegistrationPage2ViewController.swift */; };
+		296A0B3F1E7F697D0091835D /* OrgProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A0B3D1E7F697D0091835D /* OrgProfileViewController.swift */; };
+		296A0B401E7F697D0091835D /* OrgRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A0B3E1E7F697D0091835D /* OrgRegistrationViewController.swift */; };
+		296A0B441E81F9C80091835D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A0B431E81F9C80091835D /* Config.swift */; };
+		296A0B491E82F3A80091835D /* UTprofileDefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 296A0B481E82F3A80091835D /* UTprofileDefault.jpg */; };
+		296A0B4B1E82F46F0091835D /* DefaultPP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 296A0B4A1E82F46F0091835D /* DefaultPP.jpg */; };
+		297C190A1EBE8AED007287D7 /* exOrgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297C19091EBE8AED007287D7 /* exOrgViewController.swift */; };
+		297C190C1EBE9630007287D7 /* OrgCalendarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297C190B1EBE9630007287D7 /* OrgCalendarTableViewController.swift */; };
+		298F33381E7E6FC8003503B7 /* UserHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F33371E7E6FC8003503B7 /* UserHomeTableViewController.swift */; };
+		298F333A1E7E71E1003503B7 /* UserHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F33391E7E71E1003503B7 /* UserHomeTableViewCell.swift */; };
+		2994ECB31E7DB90E0090742D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2994ECB21E7DB90E0090742D /* AppDelegate.swift */; };
+		2994ECB81E7DB90E0090742D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2994ECB61E7DB90E0090742D /* Main.storyboard */; };
+		2994ECBB1E7DB90E0090742D /* OrganizationHomeProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2994ECB91E7DB90E0090742D /* OrganizationHomeProject.xcdatamodeld */; };
+		2994ECBD1E7DB90E0090742D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2994ECBC1E7DB90E0090742D /* Assets.xcassets */; };
+		2994ECC01E7DB90E0090742D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2994ECBE1E7DB90E0090742D /* LaunchScreen.storyboard */; };
+		2994ECC81E7DB9A30090742D /* OrgHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2994ECC71E7DB9A30090742D /* OrgHomeTableViewCell.swift */; };
+		2994ECCA1E7DB9B90090742D /* OrganizationHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2994ECC91E7DB9B90090742D /* OrganizationHomeTableViewController.swift */; };
+		2994ECCC1E7DB9CE0090742D /* NewEventPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2994ECCB1E7DB9CE0090742D /* NewEventPostViewController.swift */; };
+		2995FE011E843E9300A384C4 /* OrgEditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2995FDFF1E843E9300A384C4 /* OrgEditProfileViewController.swift */; };
+		2995FE021E843E9300A384C4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2995FE001E843E9300A384C4 /* SettingsViewController.swift */; };
+		29ABE1861EA275580072CDD4 /* RSVPto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ABE1851EA275580072CDD4 /* RSVPto.swift */; };
+		29C7FB7C1E99E459003B6F70 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7FB7B1E99E459003B6F70 /* User.swift */; };
+		29C7FB7E1E9B46F5003B6F70 /* OrgUserDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7FB7D1E9B46F5003B6F70 /* OrgUserDB.swift */; };
+		29C7FB801E9C8A9D003B6F70 /* StudentUserDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7FB7F1E9C8A9D003B6F70 /* StudentUserDB.swift */; };
+		29C7FC4F1EA1C330003B6F70 /* subscribedTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7FC4E1EA1C330003B6F70 /* subscribedTo.swift */; };
+		29C7FC511EA1DED4003B6F70 /* ExploreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7FC501EA1DED4003B6F70 /* ExploreTableViewController.swift */; };
+		29C7FC531EA1E0B2003B6F70 /* ExploreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C7FC521EA1E0B2003B6F70 /* ExploreTableViewCell.swift */; };
+		29D40C181EA57AFC00FED334 /* orgCover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D40C171EA57AFC00FED334 /* orgCover.jpg */; };
+		29EF60C41EA9BC6200B058B3 /* MyOrganizationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF60C31EA9BC6200B058B3 /* MyOrganizationTableViewController.swift */; };
+		29EF60C61EA9BC7D00B058B3 /* MyOrganizationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF60C51EA9BC7D00B058B3 /* MyOrganizationTableViewCell.swift */; };
+		29EF61671EADBAF500B058B3 /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61631EADBAF500B058B3 /* Calendar.png */; };
+		29EF61681EADBAF500B058B3 /* Conference.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61641EADBAF500B058B3 /* Conference.png */; };
+		29EF61691EADBAF500B058B3 /* Globe Earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61651EADBAF500B058B3 /* Globe Earth.png */; };
+		29EF616A1EADBAF500B058B3 /* Home_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61661EADBAF500B058B3 /* Home_2.png */; };
+		29EF616D1EADBB6B00B058B3 /* Support-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF616B1EADBB6B00B058B3 /* Support-24.png */; };
+		29EF616E1EADBB6B00B058B3 /* User.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF616C1EADBB6B00B058B3 /* User.png */; };
+		29EF61701EB074B000B058B3 /* ExploreOrgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF616F1EB074B000B058B3 /* ExploreOrgTableViewCell.swift */; };
+		29EF61721EB074C300B058B3 /* ExploreOrgTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF61711EB074C300B058B3 /* ExploreOrgTableViewController.swift */; };
+		29EF61781EB6B02300B058B3 /* tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61771EB6B02300B058B3 /* tower.jpg */; };
+		29EF619D1EB7A18400B058B3 /* Gaming Night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61911EB7A18400B058B3 /* Gaming Night.jpg */; };
+		29EF619E1EB7A18400B058B3 /* Networking Event.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61921EB7A18400B058B3 /* Networking Event.jpg */; };
+		29EF619F1EB7A18400B058B3 /* Startup Panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61931EB7A18400B058B3 /* Startup Panel.jpg */; };
+		29EF61A01EB7A18400B058B3 /* poster3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61941EB7A18400B058B3 /* poster3.jpg */; };
+		29EF61A11EB7A18400B058B3 /* poster4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61951EB7A18400B058B3 /* poster4.jpg */; };
+		29EF61A21EB7A18400B058B3 /* poster5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61961EB7A18400B058B3 /* poster5.jpg */; };
+		29EF61A31EB7A18400B058B3 /* poster6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61971EB7A18400B058B3 /* poster6.jpg */; };
+		29EF61A41EB7A18400B058B3 /* poster7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61981EB7A18400B058B3 /* poster7.jpg */; };
+		29EF61A51EB7A18400B058B3 /* Dinner on the Lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61991EB7A18400B058B3 /* Dinner on the Lake.jpg */; };
+		29EF61A61EB7A18400B058B3 /* poster9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EF619A1EB7A18400B058B3 /* poster9.jpg */; };
+		29EF61A71EB7A18400B058B3 /* Inside Books Volunteering.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EF619B1EB7A18400B058B3 /* Inside Books Volunteering.jpg */; };
+		29EF61A81EB7A18400B058B3 /* Spring Formal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EF619C1EB7A18400B058B3 /* Spring Formal.jpg */; };
+		29EF61AB1EB7E43F00B058B3 /* default_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61AA1EB7E43F00B058B3 /* default_avatar.png */; };
+		29EF61AD1EB7E49700B058B3 /* picture-default.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61AC1EB7E49700B058B3 /* picture-default.png */; };
+		29EF61AF1EB7E99A00B058B3 /* Marker-28.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61AE1EB7E99A00B058B3 /* Marker-28.png */; };
+		29EF61B21EB7EA0700B058B3 /* Alarm Clock-28.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61B01EB7EA0700B058B3 /* Alarm Clock-28.png */; };
+		29EF61B31EB7EA0700B058B3 /* Calendar-28.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61B11EB7EA0700B058B3 /* Calendar-28.png */; };
+		29F891A51E85BE7E006C4403 /* OrganizationProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F891A41E85BE7E006C4403 /* OrganizationProfilePageViewController.swift */; };
+		29F891AE1E85F4C1006C4403 /* OrgPhotoAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F891AD1E85F4C1006C4403 /* OrgPhotoAlbumViewController.swift */; };
+		29F891B61E85F543006C4403 /* wonders1.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F891AF1E85F543006C4403 /* wonders1.png */; };
+		29F891B71E85F543006C4403 /* wonders2.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F891B01E85F543006C4403 /* wonders2.png */; };
+		29F891B81E85F543006C4403 /* wonders3.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F891B11E85F543006C4403 /* wonders3.png */; };
+		29F891B91E85F543006C4403 /* wonders4.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F891B21E85F543006C4403 /* wonders4.png */; };
+		29F891BA1E85F543006C4403 /* wonders5.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F891B31E85F543006C4403 /* wonders5.png */; };
+		29F891BB1E85F543006C4403 /* wonders6.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F891B41E85F543006C4403 /* wonders6.png */; };
+		29F891BC1E85F543006C4403 /* wonders7.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F891B51E85F543006C4403 /* wonders7.png */; };
+		29F891BE1E85F87A006C4403 /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29F891BD1E85F87A006C4403 /* cover.jpg */; };
+		63F156E01EB776390066BDBB /* ExploreCategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F156DF1EB776390066BDBB /* ExploreCategoriesTableViewController.swift */; };
+		63F156E21EB7765F0066BDBB /* ExploreCategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F156E11EB7765F0066BDBB /* ExploreCategoriesTableViewCell.swift */; };
+		63F156E41EBE7E010066BDBB /* OrgExploreCategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F156E31EBE7E000066BDBB /* OrgExploreCategoriesTableViewController.swift */; };
+		63F156E61EBE7EFC0066BDBB /* ExploreOrgCategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F156E51EBE7EFC0066BDBB /* ExploreOrgCategoriesTableViewCell.swift */; };
+		63F156EC1EBEA53D0066BDBB /* CalendarOrgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F156EB1EBEA53D0066BDBB /* CalendarOrgTableViewCell.swift */; };
+		8CA633241EB4584F009D2698 /* NotificationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA633231EB4584F009D2698 /* NotificationKeys.swift */; };
+		8CE565D91E85AA10001B9EFF /* poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CE565D81E85AA10001B9EFF /* poster.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		290ABB7D1E95B93A00C465B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		290ABB7F1E95B97500C465B1 /* EventPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventPost.swift; sourceTree = "<group>"; };
+		296A0B261E7F06FB0091835D /* CalendarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTableViewController.swift; sourceTree = "<group>"; };
+		296A0B271E7F06FB0091835D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		296A0B2A1E7F1B870091835D /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
+		296A0B2F1E7F655A0091835D /* AccountTypeSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTypeSelectionViewController.swift; sourceTree = "<group>"; };
+		296A0B301E7F655A0091835D /* LoginPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		296A0B311E7F655A0091835D /* ProfileEditPage1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditPage1ViewController.swift; sourceTree = "<group>"; };
+		296A0B321E7F655A0091835D /* ProfileEditPage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditPage2ViewController.swift; sourceTree = "<group>"; };
+		296A0B331E7F655A0091835D /* StudentProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentProfileViewController.swift; sourceTree = "<group>"; };
+		296A0B341E7F655A0091835D /* StudentRegistrationPage1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentRegistrationPage1ViewController.swift; sourceTree = "<group>"; };
+		296A0B351E7F655A0091835D /* StudentRegistrationPage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentRegistrationPage2ViewController.swift; sourceTree = "<group>"; };
+		296A0B3D1E7F697D0091835D /* OrgProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrgProfileViewController.swift; sourceTree = "<group>"; };
+		296A0B3E1E7F697D0091835D /* OrgRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrgRegistrationViewController.swift; sourceTree = "<group>"; };
+		296A0B431E81F9C80091835D /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		296A0B481E82F3A80091835D /* UTprofileDefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UTprofileDefault.jpg; sourceTree = SOURCE_ROOT; };
+		296A0B4A1E82F46F0091835D /* DefaultPP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DefaultPP.jpg; sourceTree = SOURCE_ROOT; };
+		297C19091EBE8AED007287D7 /* exOrgViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = exOrgViewController.swift; sourceTree = "<group>"; };
+		297C190B1EBE9630007287D7 /* OrgCalendarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrgCalendarTableViewController.swift; sourceTree = "<group>"; };
+		298F33371E7E6FC8003503B7 /* UserHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHomeTableViewController.swift; sourceTree = "<group>"; };
+		298F33391E7E71E1003503B7 /* UserHomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHomeTableViewCell.swift; sourceTree = "<group>"; };
+		2994ECAF1E7DB90E0090742D /* OrganizationHomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrganizationHomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2994ECB21E7DB90E0090742D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2994ECB71E7DB90E0090742D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2994ECBA1E7DB90E0090742D /* OrganizationHomeProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OrganizationHomeProject.xcdatamodel; sourceTree = "<group>"; };
+		2994ECBC1E7DB90E0090742D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2994ECBF1E7DB90E0090742D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2994ECC11E7DB90E0090742D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2994ECC71E7DB9A30090742D /* OrgHomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrgHomeTableViewCell.swift; sourceTree = "<group>"; };
+		2994ECC91E7DB9B90090742D /* OrganizationHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationHomeTableViewController.swift; sourceTree = "<group>"; };
+		2994ECCB1E7DB9CE0090742D /* NewEventPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEventPostViewController.swift; sourceTree = "<group>"; };
+		2995FDFF1E843E9300A384C4 /* OrgEditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrgEditProfileViewController.swift; sourceTree = "<group>"; };
+		2995FE001E843E9300A384C4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		29ABE1851EA275580072CDD4 /* RSVPto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSVPto.swift; sourceTree = "<group>"; };
+		29C7FB7A1E99DFC4003B6F70 /* OrganizationHomeProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrganizationHomeProject.entitlements; sourceTree = "<group>"; };
+		29C7FB7B1E99E459003B6F70 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		29C7FB7D1E9B46F5003B6F70 /* OrgUserDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrgUserDB.swift; sourceTree = "<group>"; };
+		29C7FB7F1E9C8A9D003B6F70 /* StudentUserDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentUserDB.swift; sourceTree = "<group>"; };
+		29C7FC4E1EA1C330003B6F70 /* subscribedTo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = subscribedTo.swift; sourceTree = "<group>"; };
+		29C7FC501EA1DED4003B6F70 /* ExploreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreTableViewController.swift; sourceTree = "<group>"; };
+		29C7FC521EA1E0B2003B6F70 /* ExploreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreTableViewCell.swift; sourceTree = "<group>"; };
+		29D40C171EA57AFC00FED334 /* orgCover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orgCover.jpg; sourceTree = "<group>"; };
+		29EF60C31EA9BC6200B058B3 /* MyOrganizationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrganizationTableViewController.swift; sourceTree = "<group>"; };
+		29EF60C51EA9BC7D00B058B3 /* MyOrganizationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrganizationTableViewCell.swift; sourceTree = "<group>"; };
+		29EF61631EADBAF500B058B3 /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar.png; sourceTree = "<group>"; };
+		29EF61641EADBAF500B058B3 /* Conference.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Conference.png; sourceTree = "<group>"; };
+		29EF61651EADBAF500B058B3 /* Globe Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Globe Earth.png"; sourceTree = "<group>"; };
+		29EF61661EADBAF500B058B3 /* Home_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home_2.png; sourceTree = "<group>"; };
+		29EF616B1EADBB6B00B058B3 /* Support-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Support-24.png"; sourceTree = "<group>"; };
+		29EF616C1EADBB6B00B058B3 /* User.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User.png; sourceTree = "<group>"; };
+		29EF616F1EB074B000B058B3 /* ExploreOrgTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreOrgTableViewCell.swift; sourceTree = "<group>"; };
+		29EF61711EB074C300B058B3 /* ExploreOrgTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreOrgTableViewController.swift; sourceTree = "<group>"; };
+		29EF61771EB6B02300B058B3 /* tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tower.jpg; sourceTree = "<group>"; };
+		29EF61911EB7A18400B058B3 /* Gaming Night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gaming Night.jpg"; sourceTree = "<group>"; };
+		29EF61921EB7A18400B058B3 /* Networking Event.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Networking Event.jpg"; sourceTree = "<group>"; };
+		29EF61931EB7A18400B058B3 /* Startup Panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Startup Panel.jpg"; sourceTree = "<group>"; };
+		29EF61941EB7A18400B058B3 /* poster3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poster3.jpg; sourceTree = "<group>"; };
+		29EF61951EB7A18400B058B3 /* poster4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poster4.jpg; sourceTree = "<group>"; };
+		29EF61961EB7A18400B058B3 /* poster5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poster5.jpg; sourceTree = "<group>"; };
+		29EF61971EB7A18400B058B3 /* poster6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poster6.jpg; sourceTree = "<group>"; };
+		29EF61981EB7A18400B058B3 /* poster7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poster7.jpg; sourceTree = "<group>"; };
+		29EF61991EB7A18400B058B3 /* Dinner on the Lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dinner on the Lake.jpg"; sourceTree = "<group>"; };
+		29EF619A1EB7A18400B058B3 /* poster9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poster9.jpg; sourceTree = "<group>"; };
+		29EF619B1EB7A18400B058B3 /* Inside Books Volunteering.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Inside Books Volunteering.jpg"; sourceTree = "<group>"; };
+		29EF619C1EB7A18400B058B3 /* Spring Formal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spring Formal.jpg"; sourceTree = "<group>"; };
+		29EF61AA1EB7E43F00B058B3 /* default_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_avatar.png; sourceTree = "<group>"; };
+		29EF61AC1EB7E49700B058B3 /* picture-default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picture-default.png"; sourceTree = "<group>"; };
+		29EF61AE1EB7E99A00B058B3 /* Marker-28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marker-28.png"; sourceTree = "<group>"; };
+		29EF61B01EB7EA0700B058B3 /* Alarm Clock-28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alarm Clock-28.png"; sourceTree = "<group>"; };
+		29EF61B11EB7EA0700B058B3 /* Calendar-28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar-28.png"; sourceTree = "<group>"; };
+		29F891A41E85BE7E006C4403 /* OrganizationProfilePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationProfilePageViewController.swift; sourceTree = "<group>"; };
+		29F891AD1E85F4C1006C4403 /* OrgPhotoAlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrgPhotoAlbumViewController.swift; sourceTree = "<group>"; };
+		29F891AF1E85F543006C4403 /* wonders1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wonders1.png; sourceTree = "<group>"; };
+		29F891B01E85F543006C4403 /* wonders2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wonders2.png; sourceTree = "<group>"; };
+		29F891B11E85F543006C4403 /* wonders3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wonders3.png; sourceTree = "<group>"; };
+		29F891B21E85F543006C4403 /* wonders4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wonders4.png; sourceTree = "<group>"; };
+		29F891B31E85F543006C4403 /* wonders5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wonders5.png; sourceTree = "<group>"; };
+		29F891B41E85F543006C4403 /* wonders6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wonders6.png; sourceTree = "<group>"; };
+		29F891B51E85F543006C4403 /* wonders7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wonders7.png; sourceTree = "<group>"; };
+		29F891BD1E85F87A006C4403 /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpg; sourceTree = "<group>"; };
+		389B3FFBC17B0319BA6B4465 /* Pods_OrganizationHomeProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrganizationHomeProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F156DF1EB776390066BDBB /* ExploreCategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreCategoriesTableViewController.swift; sourceTree = "<group>"; };
+		63F156E11EB7765F0066BDBB /* ExploreCategoriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreCategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		63F156E31EBE7E000066BDBB /* OrgExploreCategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrgExploreCategoriesTableViewController.swift; sourceTree = "<group>"; };
+		63F156E51EBE7EFC0066BDBB /* ExploreOrgCategoriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreOrgCategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		63F156EB1EBEA53D0066BDBB /* CalendarOrgTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarOrgTableViewCell.swift; sourceTree = "<group>"; };
+		6A8970016B0422D64465CF8A /* Pods-OrganizationHomeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrganizationHomeProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-OrganizationHomeProject/Pods-OrganizationHomeProject.release.xcconfig"; sourceTree = "<group>"; };
+		8CA633231EB4584F009D2698 /* NotificationKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationKeys.swift; sourceTree = "<group>"; };
+		8CE565D81E85AA10001B9EFF /* poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poster.jpg; sourceTree = SOURCE_ROOT; };
+		CD3BF7E963890F1E3C79B0A9 /* Pods-OrganizationHomeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrganizationHomeProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrganizationHomeProject/Pods-OrganizationHomeProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2994ECAC1E7DB90E0090742D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEAF928932E0F7AA125B32B /* Pods_OrganizationHomeProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		296A0B2C1E7F59580091835D /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				298F33371E7E6FC8003503B7 /* UserHomeTableViewController.swift */,
+				298F33391E7E71E1003503B7 /* UserHomeTableViewCell.swift */,
+				296A0B331E7F655A0091835D /* StudentProfileViewController.swift */,
+				296A0B341E7F655A0091835D /* StudentRegistrationPage1ViewController.swift */,
+				296A0B351E7F655A0091835D /* StudentRegistrationPage2ViewController.swift */,
+				29C7FB7F1E9C8A9D003B6F70 /* StudentUserDB.swift */,
+				29C7FC4E1EA1C330003B6F70 /* subscribedTo.swift */,
+				29C7FC501EA1DED4003B6F70 /* ExploreTableViewController.swift */,
+				29C7FC521EA1E0B2003B6F70 /* ExploreTableViewCell.swift */,
+				297C19091EBE8AED007287D7 /* exOrgViewController.swift */,
+				29ABE1851EA275580072CDD4 /* RSVPto.swift */,
+				296A0B261E7F06FB0091835D /* CalendarTableViewController.swift */,
+				296A0B2A1E7F1B870091835D /* CalendarTableViewCell.swift */,
+				296A0B311E7F655A0091835D /* ProfileEditPage1ViewController.swift */,
+				296A0B321E7F655A0091835D /* ProfileEditPage2ViewController.swift */,
+				29EF60C31EA9BC6200B058B3 /* MyOrganizationTableViewController.swift */,
+				29EF60C51EA9BC7D00B058B3 /* MyOrganizationTableViewCell.swift */,
+				8CA633231EB4584F009D2698 /* NotificationKeys.swift */,
+			);
+			name = Students;
+			sourceTree = "<group>";
+		};
+		296A0B451E82F01B0091835D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				29EF61B01EB7EA0700B058B3 /* Alarm Clock-28.png */,
+				29EF61B11EB7EA0700B058B3 /* Calendar-28.png */,
+				29EF61AE1EB7E99A00B058B3 /* Marker-28.png */,
+				29EF61AC1EB7E49700B058B3 /* picture-default.png */,
+				29EF61AA1EB7E43F00B058B3 /* default_avatar.png */,
+				29EF61A91EB7A18800B058B3 /* posters */,
+				29EF61771EB6B02300B058B3 /* tower.jpg */,
+				29EF616B1EADBB6B00B058B3 /* Support-24.png */,
+				29EF616C1EADBB6B00B058B3 /* User.png */,
+				29EF61631EADBAF500B058B3 /* Calendar.png */,
+				29EF61641EADBAF500B058B3 /* Conference.png */,
+				29EF61651EADBAF500B058B3 /* Globe Earth.png */,
+				29EF61661EADBAF500B058B3 /* Home_2.png */,
+				29D40C171EA57AFC00FED334 /* orgCover.jpg */,
+				29F891BD1E85F87A006C4403 /* cover.jpg */,
+				29F891AF1E85F543006C4403 /* wonders1.png */,
+				29F891B01E85F543006C4403 /* wonders2.png */,
+				29F891B11E85F543006C4403 /* wonders3.png */,
+				29F891B21E85F543006C4403 /* wonders4.png */,
+				29F891B31E85F543006C4403 /* wonders5.png */,
+				29F891B41E85F543006C4403 /* wonders6.png */,
+				29F891B51E85F543006C4403 /* wonders7.png */,
+				296A0B4A1E82F46F0091835D /* DefaultPP.jpg */,
+				8CE565D81E85AA10001B9EFF /* poster.jpg */,
+				296A0B481E82F3A80091835D /* UTprofileDefault.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		2994ECA61E7DB90E0090742D = {
+			isa = PBXGroup;
+			children = (
+				296A0B451E82F01B0091835D /* Images */,
+				2994ECB11E7DB90E0090742D /* OrganizationHomeProject */,
+				2994ECB01E7DB90E0090742D /* Products */,
+				7295C31921731B9180F3C460 /* Pods */,
+				5CAE9FC88560870DC39CBA9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2994ECB01E7DB90E0090742D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2994ECAF1E7DB90E0090742D /* OrganizationHomeProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2994ECB11E7DB90E0090742D /* OrganizationHomeProject */ = {
+			isa = PBXGroup;
+			children = (
+				29C7FB7A1E99DFC4003B6F70 /* OrganizationHomeProject.entitlements */,
+				29C7FB791E99DF77003B6F70 /* Organization */,
+				2995FE001E843E9300A384C4 /* SettingsViewController.swift */,
+				296A0B2F1E7F655A0091835D /* AccountTypeSelectionViewController.swift */,
+				296A0B301E7F655A0091835D /* LoginPageViewController.swift */,
+				296A0B2C1E7F59580091835D /* Students */,
+				2994ECB21E7DB90E0090742D /* AppDelegate.swift */,
+				2994ECB61E7DB90E0090742D /* Main.storyboard */,
+				2994ECBC1E7DB90E0090742D /* Assets.xcassets */,
+				2994ECBE1E7DB90E0090742D /* LaunchScreen.storyboard */,
+				2994ECC11E7DB90E0090742D /* Info.plist */,
+				290ABB7D1E95B93A00C465B1 /* GoogleService-Info.plist */,
+				2994ECB91E7DB90E0090742D /* OrganizationHomeProject.xcdatamodeld */,
+				296A0B271E7F06FB0091835D /* MapViewController.swift */,
+				296A0B431E81F9C80091835D /* Config.swift */,
+				29C7FB7B1E99E459003B6F70 /* User.swift */,
+				63F156DF1EB776390066BDBB /* ExploreCategoriesTableViewController.swift */,
+				63F156E11EB7765F0066BDBB /* ExploreCategoriesTableViewCell.swift */,
+			);
+			path = OrganizationHomeProject;
+			sourceTree = "<group>";
+		};
+		29C7FB791E99DF77003B6F70 /* Organization */ = {
+			isa = PBXGroup;
+			children = (
+				290ABB7F1E95B97500C465B1 /* EventPost.swift */,
+				2995FDFF1E843E9300A384C4 /* OrgEditProfileViewController.swift */,
+				296A0B3D1E7F697D0091835D /* OrgProfileViewController.swift */,
+				296A0B3E1E7F697D0091835D /* OrgRegistrationViewController.swift */,
+				2994ECCB1E7DB9CE0090742D /* NewEventPostViewController.swift */,
+				2994ECC91E7DB9B90090742D /* OrganizationHomeTableViewController.swift */,
+				2994ECC71E7DB9A30090742D /* OrgHomeTableViewCell.swift */,
+				29F891A41E85BE7E006C4403 /* OrganizationProfilePageViewController.swift */,
+				29F891AD1E85F4C1006C4403 /* OrgPhotoAlbumViewController.swift */,
+				29C7FB7D1E9B46F5003B6F70 /* OrgUserDB.swift */,
+				29EF616F1EB074B000B058B3 /* ExploreOrgTableViewCell.swift */,
+				29EF61711EB074C300B058B3 /* ExploreOrgTableViewController.swift */,
+				63F156E31EBE7E000066BDBB /* OrgExploreCategoriesTableViewController.swift */,
+				63F156E51EBE7EFC0066BDBB /* ExploreOrgCategoriesTableViewCell.swift */,
+				297C190B1EBE9630007287D7 /* OrgCalendarTableViewController.swift */,
+				63F156EB1EBEA53D0066BDBB /* CalendarOrgTableViewCell.swift */,
+			);
+			name = Organization;
+			sourceTree = "<group>";
+		};
+		29EF61A91EB7A18800B058B3 /* posters */ = {
+			isa = PBXGroup;
+			children = (
+				29EF61911EB7A18400B058B3 /* Gaming Night.jpg */,
+				29EF61921EB7A18400B058B3 /* Networking Event.jpg */,
+				29EF61931EB7A18400B058B3 /* Startup Panel.jpg */,
+				29EF61941EB7A18400B058B3 /* poster3.jpg */,
+				29EF61951EB7A18400B058B3 /* poster4.jpg */,
+				29EF61961EB7A18400B058B3 /* poster5.jpg */,
+				29EF61971EB7A18400B058B3 /* poster6.jpg */,
+				29EF61981EB7A18400B058B3 /* poster7.jpg */,
+				29EF61991EB7A18400B058B3 /* Dinner on the Lake.jpg */,
+				29EF619A1EB7A18400B058B3 /* poster9.jpg */,
+				29EF619B1EB7A18400B058B3 /* Inside Books Volunteering.jpg */,
+				29EF619C1EB7A18400B058B3 /* Spring Formal.jpg */,
+			);
+			name = posters;
+			sourceTree = "<group>";
+		};
+		5CAE9FC88560870DC39CBA9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				389B3FFBC17B0319BA6B4465 /* Pods_OrganizationHomeProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7295C31921731B9180F3C460 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD3BF7E963890F1E3C79B0A9 /* Pods-OrganizationHomeProject.debug.xcconfig */,
+				6A8970016B0422D64465CF8A /* Pods-OrganizationHomeProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2994ECAE1E7DB90E0090742D /* OrganizationHomeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2994ECC41E7DB90E0090742D /* Build configuration list for PBXNativeTarget "OrganizationHomeProject" */;
+			buildPhases = (
+				74E0CF7DB2BBCF6B80B4BC6D /* [CP] Check Pods Manifest.lock */,
+				2994ECAB1E7DB90E0090742D /* Sources */,
+				2994ECAC1E7DB90E0090742D /* Frameworks */,
+				2994ECAD1E7DB90E0090742D /* Resources */,
+				EB99B7654AEECE6C5EE7B24C /* [CP] Embed Pods Frameworks */,
+				EB0B4BE3DB197FE5D1AFE00F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrganizationHomeProject;
+			productName = OrganizationHomeProject;
+			productReference = 2994ECAF1E7DB90E0090742D /* OrganizationHomeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2994ECA71E7DB90E0090742D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = cs329e;
+				TargetAttributes = {
+					2994ECAE1E7DB90E0090742D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DP2HBCPS8M;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2994ECAA1E7DB90E0090742D /* Build configuration list for PBXProject "OrganizationHomeProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2994ECA61E7DB90E0090742D;
+			productRefGroup = 2994ECB01E7DB90E0090742D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2994ECAE1E7DB90E0090742D /* OrganizationHomeProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2994ECAD1E7DB90E0090742D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F891B81E85F543006C4403 /* wonders3.png in Resources */,
+				29F891BC1E85F543006C4403 /* wonders7.png in Resources */,
+				29D40C181EA57AFC00FED334 /* orgCover.jpg in Resources */,
+				29EF619F1EB7A18400B058B3 /* Startup Panel.jpg in Resources */,
+				29EF61B21EB7EA0700B058B3 /* Alarm Clock-28.png in Resources */,
+				290ABB7E1E95B93A00C465B1 /* GoogleService-Info.plist in Resources */,
+				29EF616D1EADBB6B00B058B3 /* Support-24.png in Resources */,
+				29EF61A41EB7A18400B058B3 /* poster7.jpg in Resources */,
+				29EF61A21EB7A18400B058B3 /* poster5.jpg in Resources */,
+				296A0B491E82F3A80091835D /* UTprofileDefault.jpg in Resources */,
+				29EF61A11EB7A18400B058B3 /* poster4.jpg in Resources */,
+				29EF61A81EB7A18400B058B3 /* Spring Formal.jpg in Resources */,
+				296A0B4B1E82F46F0091835D /* DefaultPP.jpg in Resources */,
+				29EF61691EADBAF500B058B3 /* Globe Earth.png in Resources */,
+				29EF61A31EB7A18400B058B3 /* poster6.jpg in Resources */,
+				29EF616A1EADBAF500B058B3 /* Home_2.png in Resources */,
+				29F891BB1E85F543006C4403 /* wonders6.png in Resources */,
+				29EF61AB1EB7E43F00B058B3 /* default_avatar.png in Resources */,
+				29EF61A51EB7A18400B058B3 /* Dinner on the Lake.jpg in Resources */,
+				29F891BE1E85F87A006C4403 /* cover.jpg in Resources */,
+				29EF61781EB6B02300B058B3 /* tower.jpg in Resources */,
+				29EF61AD1EB7E49700B058B3 /* picture-default.png in Resources */,
+				29EF61671EADBAF500B058B3 /* Calendar.png in Resources */,
+				8CE565D91E85AA10001B9EFF /* poster.jpg in Resources */,
+				29F891B71E85F543006C4403 /* wonders2.png in Resources */,
+				29EF61681EADBAF500B058B3 /* Conference.png in Resources */,
+				29F891B61E85F543006C4403 /* wonders1.png in Resources */,
+				29EF616E1EADBB6B00B058B3 /* User.png in Resources */,
+				2994ECC01E7DB90E0090742D /* LaunchScreen.storyboard in Resources */,
+				29EF61A01EB7A18400B058B3 /* poster3.jpg in Resources */,
+				29EF61A61EB7A18400B058B3 /* poster9.jpg in Resources */,
+				29F891B91E85F543006C4403 /* wonders4.png in Resources */,
+				2994ECBD1E7DB90E0090742D /* Assets.xcassets in Resources */,
+				29EF61A71EB7A18400B058B3 /* Inside Books Volunteering.jpg in Resources */,
+				29EF619E1EB7A18400B058B3 /* Networking Event.jpg in Resources */,
+				29EF61B31EB7EA0700B058B3 /* Calendar-28.png in Resources */,
+				29F891BA1E85F543006C4403 /* wonders5.png in Resources */,
+				2994ECB81E7DB90E0090742D /* Main.storyboard in Resources */,
+				29EF619D1EB7A18400B058B3 /* Gaming Night.jpg in Resources */,
+				29EF61AF1EB7E99A00B058B3 /* Marker-28.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74E0CF7DB2BBCF6B80B4BC6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB0B4BE3DB197FE5D1AFE00F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OrganizationHomeProject/Pods-OrganizationHomeProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB99B7654AEECE6C5EE7B24C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OrganizationHomeProject/Pods-OrganizationHomeProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2994ECAB1E7DB90E0090742D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C7FC511EA1DED4003B6F70 /* ExploreTableViewController.swift in Sources */,
+				63F156E21EB7765F0066BDBB /* ExploreCategoriesTableViewCell.swift in Sources */,
+				29C7FB7C1E99E459003B6F70 /* User.swift in Sources */,
+				2994ECCC1E7DB9CE0090742D /* NewEventPostViewController.swift in Sources */,
+				63F156E41EBE7E010066BDBB /* OrgExploreCategoriesTableViewController.swift in Sources */,
+				2994ECCA1E7DB9B90090742D /* OrganizationHomeTableViewController.swift in Sources */,
+				296A0B3C1E7F655A0091835D /* StudentRegistrationPage2ViewController.swift in Sources */,
+				29F891A51E85BE7E006C4403 /* OrganizationProfilePageViewController.swift in Sources */,
+				29EF60C61EA9BC7D00B058B3 /* MyOrganizationTableViewCell.swift in Sources */,
+				63F156E01EB776390066BDBB /* ExploreCategoriesTableViewController.swift in Sources */,
+				29EF60C41EA9BC6200B058B3 /* MyOrganizationTableViewController.swift in Sources */,
+				2994ECC81E7DB9A30090742D /* OrgHomeTableViewCell.swift in Sources */,
+				29C7FB7E1E9B46F5003B6F70 /* OrgUserDB.swift in Sources */,
+				2995FE011E843E9300A384C4 /* OrgEditProfileViewController.swift in Sources */,
+				296A0B401E7F697D0091835D /* OrgRegistrationViewController.swift in Sources */,
+				296A0B2B1E7F1B870091835D /* CalendarTableViewCell.swift in Sources */,
+				29C7FB801E9C8A9D003B6F70 /* StudentUserDB.swift in Sources */,
+				2994ECBB1E7DB90E0090742D /* OrganizationHomeProject.xcdatamodeld in Sources */,
+				296A0B361E7F655A0091835D /* AccountTypeSelectionViewController.swift in Sources */,
+				29EF61721EB074C300B058B3 /* ExploreOrgTableViewController.swift in Sources */,
+				29F891AE1E85F4C1006C4403 /* OrgPhotoAlbumViewController.swift in Sources */,
+				296A0B3B1E7F655A0091835D /* StudentRegistrationPage1ViewController.swift in Sources */,
+				296A0B291E7F06FB0091835D /* MapViewController.swift in Sources */,
+				296A0B381E7F655A0091835D /* ProfileEditPage1ViewController.swift in Sources */,
+				297C190A1EBE8AED007287D7 /* exOrgViewController.swift in Sources */,
+				29C7FC531EA1E0B2003B6F70 /* ExploreTableViewCell.swift in Sources */,
+				297C190C1EBE9630007287D7 /* OrgCalendarTableViewController.swift in Sources */,
+				8CA633241EB4584F009D2698 /* NotificationKeys.swift in Sources */,
+				290ABB801E95B97500C465B1 /* EventPost.swift in Sources */,
+				29EF61701EB074B000B058B3 /* ExploreOrgTableViewCell.swift in Sources */,
+				63F156E61EBE7EFC0066BDBB /* ExploreOrgCategoriesTableViewCell.swift in Sources */,
+				296A0B391E7F655A0091835D /* ProfileEditPage2ViewController.swift in Sources */,
+				29ABE1861EA275580072CDD4 /* RSVPto.swift in Sources */,
+				2995FE021E843E9300A384C4 /* SettingsViewController.swift in Sources */,
+				296A0B3F1E7F697D0091835D /* OrgProfileViewController.swift in Sources */,
+				29C7FC4F1EA1C330003B6F70 /* subscribedTo.swift in Sources */,
+				296A0B3A1E7F655A0091835D /* StudentProfileViewController.swift in Sources */,
+				2994ECB31E7DB90E0090742D /* AppDelegate.swift in Sources */,
+				63F156EC1EBEA53D0066BDBB /* CalendarOrgTableViewCell.swift in Sources */,
+				298F333A1E7E71E1003503B7 /* UserHomeTableViewCell.swift in Sources */,
+				296A0B371E7F655A0091835D /* LoginPageViewController.swift in Sources */,
+				296A0B441E81F9C80091835D /* Config.swift in Sources */,
+				298F33381E7E6FC8003503B7 /* UserHomeTableViewController.swift in Sources */,
+				296A0B281E7F06FB0091835D /* CalendarTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2994ECB61E7DB90E0090742D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2994ECB71E7DB90E0090742D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2994ECBE1E7DB90E0090742D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2994ECBF1E7DB90E0090742D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2994ECC21E7DB90E0090742D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2994ECC31E7DB90E0090742D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2994ECC51E7DB90E0090742D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3BF7E963890F1E3C79B0A9 /* Pods-OrganizationHomeProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OrganizationHomeProject/OrganizationHomeProject.entitlements;
+				DEVELOPMENT_TEAM = DP2HBCPS8M;
+				INFOPLIST_FILE = OrganizationHomeProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs329e.OrganizationHomeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2994ECC61E7DB90E0090742D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8970016B0422D64465CF8A /* Pods-OrganizationHomeProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OrganizationHomeProject/OrganizationHomeProject.entitlements;
+				DEVELOPMENT_TEAM = DP2HBCPS8M;
+				INFOPLIST_FILE = OrganizationHomeProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs329e.OrganizationHomeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2994ECAA1E7DB90E0090742D /* Build configuration list for PBXProject "OrganizationHomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2994ECC21E7DB90E0090742D /* Debug */,
+				2994ECC31E7DB90E0090742D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2994ECC41E7DB90E0090742D /* Build configuration list for PBXNativeTarget "OrganizationHomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2994ECC51E7DB90E0090742D /* Debug */,
+				2994ECC61E7DB90E0090742D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2994ECB91E7DB90E0090742D /* OrganizationHomeProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2994ECBA1E7DB90E0090742D /* OrganizationHomeProject.xcdatamodel */,
+			);
+			currentVersion = 2994ECBA1E7DB90E0090742D /* OrganizationHomeProject.xcdatamodel */;
+			path = OrganizationHomeProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2994ECA71E7DB90E0090742D /* Project object */;
+}
